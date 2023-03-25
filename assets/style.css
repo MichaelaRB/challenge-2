@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,10 +98,6 @@ body {
 }
 
 @media screen and (max-width:768px) {
-
-    .header {
-        height: 150px;
-    }
 
     .header h1 {
         padding-left: 100px;
