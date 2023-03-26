@@ -5,6 +5,14 @@
     --border-thickness: 5px;
 }
 
+
+/*
+    scroll behavior code from https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+*/
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -48,7 +56,6 @@ h2 {
     margin-right: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    scroll-behavior: smooth;
 }
 
 .header nav ul {
@@ -116,9 +123,15 @@ section {
 }
 
 .projects-container img {
-    width: 800px;
+    width: 980px;
     height: 600px;
-    margin-left: 200px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border: var(--border-thickness) solid var(--blue);
+}
+
+container:hover {
+    opacity: 25%;
 }
 
 .projects-container h3 {
@@ -130,8 +143,8 @@ section {
     position: absolute;
     text-align: center;
     font-size: 25px;
-    bottom: 75px;
-    left: 200px;
+    bottom: 100px;
+    left: 45px;
 }
 
 .project-one-container h3 {
@@ -142,7 +155,7 @@ section {
 
 .project-one-container img {
     width: 2000px;
-    height: 1500px;
+    height: 1250px;
     margin-left: 0px;
 }
 
@@ -150,7 +163,7 @@ section {
     color: var(--white);
     margin-left: 20px;
     padding-right: 205px;
-    margin-right: 200px;
+    margin-right: 360px;
     padding-bottom: 512px;
     border-right: var(--border-thickness) solid var(--gray);
 }
