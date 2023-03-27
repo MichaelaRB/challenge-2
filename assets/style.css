@@ -177,11 +177,13 @@ styling for the project images at full screen size
     color: var(--white);
     border-right: none;
     margin-right: 1vw;
+    padding-bottom: 0vw;
 }
 
 .side-border {
     color: var(--white);
     margin-left: 2vw;
+    padding-bottom: 0vw;
 }
 
 .contact-section {
