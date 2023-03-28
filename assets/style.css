@@ -74,7 +74,7 @@ section {
     padding-top: 1vw;
     margin-right: 1vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: calc(10px + .5vw);
+    font-size: calc(5px + .5vw);
 }
 
 .header nav ul {
@@ -208,7 +208,7 @@ styling for the project images at full screen size
 
 .contact-links a {
     color:var(--blue);
-    font-size: calc(5px + .5vw);
+    font-size: calc(7px + .5vw);
     font-family: var(--font-families);
 }
 
