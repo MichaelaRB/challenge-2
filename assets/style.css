@@ -100,10 +100,15 @@ section {
 }
 
 #about-section {
-    padding-top: 15vw;
+    padding-top: 30vw;
     align-items: center;
     height: 5vw;
     margin-bottom: 40vw;
+}
+
+#about-section h2 {
+    padding-top: 7vw;
+    padding-bottom: 45vw;
 }
 
 #about-section img {
