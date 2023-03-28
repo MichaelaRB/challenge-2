@@ -3,6 +3,7 @@
     --white: rgb(243, 243, 243);
     --gray: rgb(60, 50, 73);
     --border-thickness: 5px;
+    --font-families: Arial, sans-serif;
 }
 
 
@@ -54,6 +55,7 @@ section {
 
 .header {
     height: 5vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +120,7 @@ section {
     margin-right: 3%;
     max-width: 50%;
     font-size: calc(10px + 1vw);
-    font-family: Arial, sans-serif;
+    font-family: var(--font-families);
     color: var(--blue);
 }
 
@@ -149,14 +151,14 @@ styling for the project images at full screen size
 .projects-container h3 {
     width: 15vw;
     height: 5vw;
-    font-family: Arial, sans-serif;
+    font-family: var(--font-families);
     background-color: var(--blue);
     color: var(--white);
     position: absolute;
     text-align: center;
     padding-top: 1.5vw;
     font-size: calc(10px + 1vw);
-    bottom: 10vw;
+    bottom: 5vw;
     left: 0vw;
 }
 
@@ -186,15 +188,16 @@ styling for the project images at full screen size
     padding-bottom: 0vw;
 }
 
-.contact-section {
-    margin: 0vw;
-    padding: 0vw;
-    height: 1vw;
+#contact-section {
+    padding-right: 10vw;
+    padding-top: 5vw;
+    margin-bottom: 5vw;
 }
 
-.contact-section h2 {
-    padding: 0vw;
-    margin: 0vw;
+#contact-section h2 {
+    padding-right: 10vw;
+    padding-top: .1vw;
+    padding-bottom: 2vw;
 }
 
 .contact-links {
@@ -208,6 +211,7 @@ styling for the project images at full screen size
 .contact-links a {
     color:var(--blue);
     font-size: calc(10px + .5vw);
+    font-family: var(--font-families);
 }
 
 .contact-links a:hover {
