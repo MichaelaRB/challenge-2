@@ -15,6 +15,9 @@ The portfolio, as viewed on a desktop computer:
    !["The deployed site on desktop"](./assets/images/website-demo.gif)
 
 The portfolio, as viewed on a smartphone:
+
+
+
    !["The deployed site on my phone"](./assets/images/website-mobile.jpeg)
     
 ## Credits
