@@ -156,7 +156,7 @@ Styling for the work section, including project images and placeholders.
     height: 5vw;
     font-family: var(--font-families);
     background-color: var(--blue);
-    color: var(--white);
+    color: white;
     position: absolute;
     text-align: center;
     padding-top: 1.5vw;
