@@ -7,7 +7,7 @@
 N/A
 
 ## Usage
-   !["The deployed site"](./assets/images/challenge-screenshot.png)
+   !["The deployed site on desktop"](./assets/images/challenge-screenshot.png)
     
 ## Credits
 
