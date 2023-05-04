@@ -132,7 +132,8 @@ Styling for the work section, including project images and placeholders.
 */
 #work-section {
     flex-wrap: wrap;
-    margin-bottom: 10vw
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
 }
 
 .projects-container {
@@ -159,15 +160,19 @@ Styling for the work section, including project images and placeholders.
     color: white;
     position: absolute;
     text-align: center;
-    padding-top: 1.5vw;
+   /* padding-top: 1.5vw;*/
     font-size: calc(5px + 1vw);
     bottom: 5vw;
     left: 0vw;
 }
 
+.project-one-container {
+    height: auto;
+}
+
 .project-one-container h3 {
     width: 15vw;
-    bottom: 5vw;
+    bottom: 11.2vw;
     left: 0px;
 }
 
